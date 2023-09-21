@@ -10,3 +10,7 @@ provider "aws" {
   access_key="AKIAZFIQ7RW32YA3TF6E"
   secret_key="=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"
 }
+resource "aws_instance" "Linux_server" {
+  ami=""
+  instance_type=""
+  } 
